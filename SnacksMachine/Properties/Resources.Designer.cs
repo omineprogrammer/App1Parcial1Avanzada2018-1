@@ -10,8 +10,8 @@
 
 namespace SnacksMachine.Properties {
     using System;
-    
-    
+
+
     /// <summary>
     ///   Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
     /// </summary>
@@ -23,15 +23,15 @@ namespace SnacksMachine.Properties {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
-        
+
         private static global::System.Resources.ResourceManager resourceMan;
-        
+
         private static global::System.Globalization.CultureInfo resourceCulture;
-        
+
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
-        
+
         /// <summary>
         ///   Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
         /// </summary>
@@ -45,7 +45,7 @@ namespace SnacksMachine.Properties {
                 return resourceMan;
             }
         }
-        
+
         /// <summary>
         ///   Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
         ///   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
@@ -59,7 +59,177 @@ namespace SnacksMachine.Properties {
                 resourceCulture = value;
             }
         }
-        
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap door_2_01 {
+            get {
+                object obj = ResourceManager.GetObject("door_2_01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap door_2_02 {
+            get {
+                object obj = ResourceManager.GetObject("door_2_02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap door_2_03 {
+            get {
+                object obj = ResourceManager.GetObject("door_2_03", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap door_2_04 {
+            get {
+                object obj = ResourceManager.GetObject("door_2_04", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap door_2_05 {
+            get {
+                object obj = ResourceManager.GetObject("door_2_05", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap door_2_06 {
+            get {
+                object obj = ResourceManager.GetObject("door_2_06", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap machine_0000_Drink1 {
+            get {
+                object obj = ResourceManager.GetObject("machine_0000_Drink1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap machine_0000_Tray {
+            get {
+                object obj = ResourceManager.GetObject("machine_0000_Tray", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap machine_0000s_0000_Forma_2_copiar_8 {
+            get {
+                object obj = ResourceManager.GetObject("machine_0000s_0000_Forma_2_copiar_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap machine_0000s_0001_Forma {
+            get {
+                object obj = ResourceManager.GetObject("machine_0000s_0001_Forma", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap machine_0001_Insert_Money {
+            get {
+                object obj = ResourceManager.GetObject("machine_0001_Insert_Money", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap machine_0001s_0000_KB {
+            get {
+                object obj = ResourceManager.GetObject("machine_0001s_0000_KB", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap machine_0002s_0000_SubItems {
+            get {
+                object obj = ResourceManager.GetObject("machine_0002s_0000_SubItems", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap machine_0002s_0000s_0003_Stock_copiar_24 {
+            get {
+                object obj = ResourceManager.GetObject("machine_0002s_0000s_0003_Stock_copiar_24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap machine_0002s_0000s_0004_Stock_copiar {
+            get {
+                object obj = ResourceManager.GetObject("machine_0002s_0000s_0004_Stock_copiar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap machine_0002s_0001_Stock {
+            get {
+                object obj = ResourceManager.GetObject("machine_0002s_0001_Stock", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap machine_0003s_0005_Body {
+            get {
+                object obj = ResourceManager.GetObject("machine_0003s_0005_Body", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
@@ -69,7 +239,7 @@ namespace SnacksMachine.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
@@ -79,7 +249,7 @@ namespace SnacksMachine.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
@@ -89,7 +259,7 @@ namespace SnacksMachine.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
@@ -99,5 +269,25 @@ namespace SnacksMachine.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+
+
+        //public static System.Drawing.Drawing2D.GraphicsPath Transparent(System.Drawing.Image im) {
+        //    int x;
+        //    int y;
+        //    System.Drawing.Bitmap bmp = new System.Drawing.Bitmap(im);
+        //    System.Drawing.Drawing2D.GraphicsPath gp = new System.Drawing.Drawing2D.GraphicsPath();
+        //    System.Drawing.Color mask = bmp.GetPixel(0, 0);
+
+        //    for (x = 0; x <= bmp.Width - 1; x++) {
+        //        for (y = 0; y <= bmp.Height - 1; y++) {
+        //            if (!bmp.GetPixel(x, y).Equals(mask)) {
+        //                gp.AddRectangle(new System.Drawing.Rectangle(x, y, 1, 1));
+        //            }
+        //        }
+        //    }
+        //    bmp.Dispose();
+        //    return gp;
+
+        //}
     }
 }

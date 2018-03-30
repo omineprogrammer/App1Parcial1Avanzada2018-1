@@ -91,5 +91,74 @@
   <ItemGroup>
     <None Include="Resorces\door\maks_door_4.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\door_2\door-2_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\door_2\door-2_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\door_2\door-2_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\door_2\door-2_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\door_2\door-2_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\door_2\door-2_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\door_2\door_2_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\door_2\door_2_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\door_2\door_2_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\door_2\door_2_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\door_2\door_2_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\door_2\door_2_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\machine\machine_0000_Tray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\machine\machine_0000s_0000_Forma-2-copiar-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\machine\machine_0000s_0001_Forma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\machine\machine_0001_Insert-Money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\machine\machine_0001s_0000_KB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\machine\machine_0002s_0000_SubItems.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\machine\machine_0002s_0001_Stock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\machine\machine_0003s_0005_Body.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\machine\machine_0002s_0000s_0003_Stock-copiar-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\machine\machine_0002s_0000s_0004_Stock-copiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\machine\machine_0000_Drink1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
