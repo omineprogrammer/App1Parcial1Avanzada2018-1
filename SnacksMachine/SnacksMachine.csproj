@@ -160,5 +160,164 @@
   <ItemGroup>
     <None Include="Resorces\machine\machine_0000_Drink1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\door_3\door_3_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0000_Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0000s_0000_F08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0000s_0001_F07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0000s_0002_F06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0000s_0003_F05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0000s_0004_F04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0000s_0005_F03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0000s_0006_F02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0000s_0007_F01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0001_Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0001s_0000_Capa-2-copia-14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0001s_0001_Capa-2-copia-13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0001s_0002_Capa-2-copia-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0001s_0003_Capa-2-copia-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0001s_0004_Capa-2-copia-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0001s_0005_Capa-2-copia-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0001s_0006_Capa-2-copia-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0001s_0007_Capa-2-copia-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0001s_0008_Capa-2-copia-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0001s_0009_Capa-2-copia-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0001s_0010_Capa-2-copia-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\machine2_0001s_0011_Capa-2-copia-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Money\bill_0000_50000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Money\bill_0001_20000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Money\bill_0002_10000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Money\bill_0003_5000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Money\bill_0004_2000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Money\coin_0000_1000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Money\coin_0001_500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Money\coin_0002_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Money\coin_0003_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Money\coin_0004_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationDoor\machine2_0000s_0000_F08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationDoor\machine2_0000s_0001_F07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationDoor\machine2_0000s_0002_F06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationDoor\machine2_0000s_0003_F05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationDoor\machine2_0000s_0004_F04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationDoor\machine2_0000s_0005_F03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationDoor\machine2_0000s_0006_F02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationDoor\machine2_0000s_0007_F01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationSprint\machine2_0001s_0000_Capa-2-copia-14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationSprint\machine2_0001s_0001_Capa-2-copia-13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationSprint\machine2_0001s_0002_Capa-2-copia-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationSprint\machine2_0001s_0003_Capa-2-copia-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationSprint\machine2_0001s_0004_Capa-2-copia-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationSprint\machine2_0001s_0005_Capa-2-copia-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationSprint\machine2_0001s_0006_Capa-2-copia-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationSprint\machine2_0001s_0007_Capa-2-copia-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationSprint\machine2_0001s_0008_Capa-2-copia-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationSprint\machine2_0001s_0009_Capa-2-copia-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationSprint\machine2_0001s_0010_Capa-2-copia-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resorces\Machine2\AnimationSprint\machine2_0001s_0011_Capa-2-copia-2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

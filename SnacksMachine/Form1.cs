@@ -13,17 +13,13 @@ namespace SnacksMachine {
         public Form1() {
             InitializeComponent();
 
-            /*
-            this.body.Controls.Add(this.testpic);
-            this.pictureBox2.Controls.Add(this.testpic);
-            this.stock.Controls.Add(this.testpic);
-            testpic.BackColor = System.Drawing.Color.Transparent;
-            */
-            //System.Drawing.Drawing2D.GraphicsPath gp = ;
+            this.moneyModule.DragDrop += new System.Windows.Forms.DragEventHandler(this.item1_DragDrop);
 
-            //make transparent
-            testpic.Region = new System.Drawing.Region(Program.Transparent(testpic.Image));
-            body.Region = new System.Drawing.Region(Program.Transparent(body.Image));
+            //match tranparency
+            Program.Transparent(this.back);
+            Program.Transparent(this.front);
+            Program.Transparent(this.bill);
+            Program.Invisible(this.moneyModule);
 
             Program.Logger("INFO", this.Name + " initialized");
         }
@@ -32,54 +28,28 @@ namespace SnacksMachine {
             
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e) {
-            Animation1ChangeImg(
-                this.body,
-                new System.Drawing.Bitmap[] {
-                    global::SnacksMachine.Properties.Resources.door_2_01,
-                    global::SnacksMachine.Properties.Resources.door_2_02,
-                    global::SnacksMachine.Properties.Resources.door_2_03,
-                    global::SnacksMachine.Properties.Resources.door_2_04,
-                    global::SnacksMachine.Properties.Resources.door_2_05,
-                    global::SnacksMachine.Properties.Resources.door_2_06
-                },
-                6,
-                false
-            );          
-            Program.Logger("DEBG", body.Name + " was clicked");
+        private void item1_DragDrop(object sender, EventArgs e) {
+            
         }
 
-        private void Animation1ChangeImg(PictureBox pictureBox, System.Drawing.Bitmap[] BitmapArr, int FramexSecond, bool continuos) {
-            int i = 0;
-            Timer timer = new Timer();
-            timer.Interval = (1000 / FramexSecond);
-            timer.Tick += new System.EventHandler(timer_tick);
-            timer.Enabled = true;
-            
-            //handler timer
-            void timer_tick(object sender, EventArgs e) {
-                timer.Stop();
-                Program.Logger("DEBG", timer.Interval + " MiliSecond cycle number " + (i + 1) + " completed");
-                //handler
-                if (i == (BitmapArr.Count() -1)) {
-                    pictureBox.Image = BitmapArr[i];
-                    pictureBox.Region = new System.Drawing.Region(Program.Transparent(pictureBox.Image));
-                    Program.Logger("DEBG", pictureBox.Name + " image change to image number " + (i + 1));
-                    //again
-                    if (continuos) {
-                        Program.Logger("DEBG", timer.Interval + " MiliSecond cycle again");
-                        i = 0;
-                        timer.Start();
-                    }
-                } else {
-                    pictureBox.Image = BitmapArr[i];
-                    pictureBox.Region = new System.Drawing.Region(Program.Transparent(pictureBox.Image));
-                    Program.Logger("DEBG", pictureBox.Name + " image change to image number " + (i + 1));
-                    //next step
-                    i++;
-                    timer.Start();
-                }
-            }
+        private void pictureBox2_Click(object sender, EventArgs e) {
+            Program.Animation1(
+                this.front,
+                new System.Drawing.Bitmap[] {
+                    global::SnacksMachine.Properties.Resources.machine2_0000s_0007_F01,
+                    global::SnacksMachine.Properties.Resources.machine2_0000s_0006_F02,
+                    global::SnacksMachine.Properties.Resources.machine2_0000s_0005_F03,
+                    global::SnacksMachine.Properties.Resources.machine2_0000s_0004_F04,
+                    global::SnacksMachine.Properties.Resources.machine2_0000s_0003_F05,
+                    global::SnacksMachine.Properties.Resources.machine2_0000s_0002_F06,
+                    global::SnacksMachine.Properties.Resources.machine2_0000s_0001_F07,
+                    global::SnacksMachine.Properties.Resources.machine2_0000s_0000_F08
+                },
+                8,
+                false
+            );          
+            Program.Logger("DEBG", back.Name + " was clicked");
         }
+
     }
 }
