@@ -118,67 +118,103 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="machine_0000s_0001_Forma" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\machine\machine_0000s_0001_Forma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bill_0000_50000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Money\bill_0000_50000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="machine_0003s_0005_Body" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\machine\machine_0003s_0005_Body.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bill_0001_20000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Money\bill_0001_20000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="machine_0002s_0000_SubItems" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\machine\machine_0002s_0000_SubItems.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bill_0002_10000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Money\bill_0002_10000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="maks_door_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\door\maks_door_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bill_0003_5000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Money\bill_0003_5000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="door_2_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\door_2\door_2_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bill_0004_2000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Money\bill_0004_2000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="machine_0002s_0000s_0003_Stock_copiar_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\machine\machine_0002s_0000s_0003_Stock-copiar-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="coin_0000_1000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Money\coin_0000_1000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="machine_0001_Insert_Money" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\machine\machine_0001_Insert-Money.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="coin_0001_500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Money\coin_0001_500.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="machine_0001s_0000_KB" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\machine\machine_0001s_0000_KB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="coin_0002_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Money\coin_0002_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="machine_0000s_0000_Forma_2_copiar_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\machine\machine_0000s_0000_Forma-2-copiar-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="coin_0003_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Money\coin_0003_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="maks_door_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\door\maks_door_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="coin_0004_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Money\coin_0004_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="door_2_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\door_2\door_2_05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="String" xml:space="preserve">
+    <value>stem.Drawing.Color mask = System.Drawing.Color.FromArgb(0,0,0,0);</value>
   </data>
-  <data name="door_2_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\door_2\door_2_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="machine2_0000s_0000_F08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationDoor\machine2_0000s_0000_F08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="door_2_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\door_2\door_2_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="machine2_0000s_0001_F07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationDoor\machine2_0000s_0001_F07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="machine_0002s_0001_Stock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\machine\machine_0002s_0001_Stock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="machine2_0000s_0002_F06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationDoor\machine2_0000s_0002_F06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="maks_door_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\door\maks_door_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="machine2_0000s_0003_F05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationDoor\machine2_0000s_0003_F05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="door_2_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\door_2\door_2_06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="machine2_0000s_0004_F04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationDoor\machine2_0000s_0004_F04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="door_2_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\door_2\door_2_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="machine2_0000s_0005_F03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationDoor\machine2_0000s_0005_F03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="maks_door_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\door\maks_door_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="machine2_0000s_0006_F02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationDoor\machine2_0000s_0006_F02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="machine_0002s_0000s_0004_Stock_copiar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\machine\machine_0002s_0000s_0004_Stock-copiar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="machine2_0000s_0007_F01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationDoor\machine2_0000s_0007_F01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="machine_0000_Tray" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\machine\machine_0000_Tray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="machine2_0000_Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\machine2_0000_Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="machine_0000_Drink1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resorces\machine\machine_0000_Drink1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="machine2_0001s_0000_Capa_2_copia_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationSprint\machine2_0001s_0000_Capa-2-copia-14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine2_0001s_0001_Capa_2_copia_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationSprint\machine2_0001s_0001_Capa-2-copia-13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine2_0001s_0002_Capa_2_copia_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationSprint\machine2_0001s_0002_Capa-2-copia-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine2_0001s_0003_Capa_2_copia_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationSprint\machine2_0001s_0003_Capa-2-copia-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine2_0001s_0004_Capa_2_copia_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationSprint\machine2_0001s_0004_Capa-2-copia-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine2_0001s_0005_Capa_2_copia_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationSprint\machine2_0001s_0005_Capa-2-copia-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine2_0001s_0006_Capa_2_copia_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationSprint\machine2_0001s_0006_Capa-2-copia-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine2_0001s_0007_Capa_2_copia_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationSprint\machine2_0001s_0007_Capa-2-copia-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine2_0001s_0008_Capa_2_copia_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationSprint\machine2_0001s_0008_Capa-2-copia-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine2_0001s_0009_Capa_2_copia_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationSprint\machine2_0001s_0009_Capa-2-copia-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine2_0001s_0010_Capa_2_copia_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationSprint\machine2_0001s_0010_Capa-2-copia-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine2_0001s_0011_Capa_2_copia_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\AnimationSprint\machine2_0001s_0011_Capa-2-copia-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="machine2_0001_Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resorces\Machine2\machine2_0001_Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
