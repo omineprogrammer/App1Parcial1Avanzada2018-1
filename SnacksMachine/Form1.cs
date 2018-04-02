@@ -16,29 +16,25 @@ namespace SnacksMachine {
             //match tranparency
             Program.Transparent(this.back);
             Program.Transparent(this.front);
-            Program.Transparent(this.bill1);
+            Program.Transparent(this.bill2000);
             //make invisible
             this.front.Controls.Add(this.moneyModule);
             this.front.Controls.Add(this.PanelPrincipal);
             //Program.Invisible(this.moneyModule);
 
             //dragdrop
-            bill1.AllowDrop = true;
+            bill2000.AllowDrop = true;
             moneyModule.AllowDrop = true;
 
-            bill1.MouseDown += new MouseEventHandler(Event_MouseDown);
-            bill1.DragDrop += new DragEventHandler(Event_DragDrop);
-            //bill1.DragEnter += new DragEventHandler(Event_DragEnter);
-
-            //moneyModule.MouseDown += new MouseEventHandler(Event_MouseDown);
-            //moneyModule.DragDrop += new DragEventHandler(Event_DragDrop);
-            moneyModule.DragEnter += new DragEventHandler(Event_DragEnter);
+            //bill2000.MouseDown += new MouseEventHandler(DropMoney_MouseDown);
+            bill2000.DragDrop += new DragEventHandler(Receive_DragDrop);
+            moneyModule.DragEnter += new DragEventHandler(IntoMoney_DragEnter);
 
             Program.Logger("INFO", this.Name + " initialized");
         }
 
         private void bill1_Click(object sender, EventArgs e) {
-            Program.Logger("DEBG", bill1.Name + " was clicked");
+            Program.Logger("DEBG", bill2000.Name + " was clicked");
         }
 
         private void buttonDoor_Click(object sender, EventArgs e) {
@@ -84,19 +80,15 @@ namespace SnacksMachine {
             Program.Logger("DEBG", moneyModule.Name + " was clicked");
         }
 
-        private void Event_MouseDown(object sender, MouseEventArgs e) {
+        //Drop image
+        private void DropImage_MouseDown(object sender, MouseEventArgs e) {
             PictureBox pictureBox = (PictureBox)sender;
             if (pictureBox.Image != null) {
                 pictureBox.Select();
                 pictureBox.DoDragDrop(pictureBox.Image, DragDropEffects.Copy);
             }
         }
-
-        private void Event_DragDrop(object sender, DragEventArgs e) {
-            PictureBox pb = (PictureBox)sender;
-            pb.Image = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
-        }
-
+        //validate drag data
         private void Event_DragEnter(object sender, DragEventArgs e) {
             if (e.Data.GetDataPresent(DataFormats.Bitmap)) {
                 e.Effect = DragDropEffects.Copy;
@@ -104,15 +96,48 @@ namespace SnacksMachine {
                 e.Effect = DragDropEffects.None;
             }
         }
+        //receiver drag data
+        private void Event_DragDrop(object sender, DragEventArgs e) {
+            PictureBox pb = (PictureBox)sender;
+            //pb.Image = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+        }
+
+
+
+
+
+
+        //Drop money
+        private void DropMoney_MouseDown(object sender, MouseEventArgs e) {
+            MoneyBill money = (MoneyBill)sender;
+            money.Select();
+            money.DoDragDrop(money.Value.ToString(), DragDropEffects.Copy);
+        }
+        //validate drag data
+        private void IntoMoney_DragEnter(object sender, DragEventArgs e) {
+            Program.Logger(
+                "DEBG", "number of data reg present in 'e' " + e.Data.GetFormats().Count() + ", index 0 " + e.Data.GetFormats()[0]);
+            if (e.Data.GetDataPresent(DataFormats.StringFormat)) {
+                e.Effect = DragDropEffects.Copy;
+                Program.Logger("DEBG", "data " + e.Data.GetData(DataFormats.StringFormat));
+            } else {
+                e.Effect = DragDropEffects.None;
+            }
+        }
+        //receiver drag data
+        private void Receive_DragDrop(object sender, DragEventArgs e) {
+            PictureBox pb = (PictureBox)sender;
+            pb.Image = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+        }
+
+
+
+
         private void PanelPrincipal_Click(object sender, EventArgs e) {
-
             groupBox1.Visible = true;
-
         }
 
-        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e) {
-
-        }
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e) {}
 
         private void button1_Click(object sender, EventArgs e) {
             maskedTextBox1.Text = maskedTextBox1.Text + "1";
@@ -163,6 +188,10 @@ namespace SnacksMachine {
         }
 
         private void groupBox1_Enter(object sender, EventArgs e) {
+
+        }
+
+        private void Event_MouseDown(object sender, MouseEventArgs e) {
 
         }
     }

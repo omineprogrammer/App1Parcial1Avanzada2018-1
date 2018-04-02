@@ -24,11 +24,15 @@
         /// </summary>
         private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.bill1 = new System.Windows.Forms.PictureBox();
             this.back = new System.Windows.Forms.PictureBox();
             this.moneyModule = new System.Windows.Forms.PictureBox();
             this.front = new System.Windows.Forms.PictureBox();
             this.buttonDoor = new System.Windows.Forms.Button();
+            this.bill2000 = new SnacksMachine.MoneyBill();
+            this.bill5000 = new SnacksMachine.MoneyBill();
+            this.bill10000 = new SnacksMachine.MoneyBill();
+            this.bill20000 = new SnacksMachine.MoneyBill();
+            this.bill50000 = new SnacksMachine.MoneyBill();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -42,8 +46,8 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.PanelPrincipal = new System.Windows.Forms.PictureBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.PanelPrincipal = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -84,10 +88,14 @@
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.bill1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.back)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.moneyModule)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.front)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bill2000)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bill5000)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bill10000)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bill20000)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bill50000)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PanelPrincipal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -112,19 +120,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             this.SuspendLayout();
             // 
-            // bill1
-            // 
-            this.bill1.Image = global::SnacksMachine.Properties.Resources.bill_0004_2000;
-            this.bill1.Location = new System.Drawing.Point(372, 12);
-            this.bill1.Name = "bill1";
-            this.bill1.Size = new System.Drawing.Size(95, 52);
-            this.bill1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bill1.TabIndex = 1;
-            this.bill1.TabStop = false;
-            this.bill1.Visible = false;
-            this.bill1.Click += new System.EventHandler(this.bill1_Click);
-            this.bill1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Event_MouseDown);
-            // 
             // back
             // 
             this.back.BackColor = System.Drawing.Color.Transparent;
@@ -137,7 +132,7 @@
             // 
             // moneyModule
             // 
-            this.moneyModule.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(200)))), ((int)(((byte)(150)))), ((int)(((byte)(80)))));
+            this.moneyModule.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.moneyModule.InitialImage = null;
             this.moneyModule.Location = new System.Drawing.Point(262, 255);
             this.moneyModule.Name = "moneyModule";
@@ -146,8 +141,6 @@
             this.moneyModule.TabIndex = 3;
             this.moneyModule.TabStop = false;
             this.moneyModule.Click += new System.EventHandler(this.moneyModule_Click);
-            this.moneyModule.DragDrop += new System.Windows.Forms.DragEventHandler(this.Event_DragDrop);
-            this.moneyModule.DragEnter += new System.Windows.Forms.DragEventHandler(this.Event_DragEnter);
             // 
             // front
             // 
@@ -168,6 +161,66 @@
             this.buttonDoor.Text = "Open Door";
             this.buttonDoor.UseVisualStyleBackColor = true;
             this.buttonDoor.Click += new System.EventHandler(this.buttonDoor_Click);
+            // 
+            // bill2000
+            // 
+            this.bill2000.Image = global::SnacksMachine.Properties.Resources.bill_0004_2000;
+            this.bill2000.Location = new System.Drawing.Point(335, 42);
+            this.bill2000.Name = "bill2000";
+            this.bill2000.Size = new System.Drawing.Size(95, 52);
+            this.bill2000.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bill2000.TabIndex = 1;
+            this.bill2000.TabStop = false;
+            this.bill2000.Value = 2000;
+            this.bill2000.MouseDown += new System.Windows.Forms.MouseEventHandler(this.DropMoney_MouseDown);
+            // 
+            // bill5000
+            // 
+            this.bill5000.Image = global::SnacksMachine.Properties.Resources.bill_0003_5000;
+            this.bill5000.Location = new System.Drawing.Point(436, 42);
+            this.bill5000.Name = "bill5000";
+            this.bill5000.Size = new System.Drawing.Size(95, 52);
+            this.bill5000.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bill5000.TabIndex = 60;
+            this.bill5000.TabStop = false;
+            this.bill5000.Value = 5000;
+            this.bill5000.MouseDown += new System.Windows.Forms.MouseEventHandler(this.DropImage_MouseDown);
+            // 
+            // bill10000
+            // 
+            this.bill10000.Image = global::SnacksMachine.Properties.Resources.bill_0002_10000;
+            this.bill10000.Location = new System.Drawing.Point(335, 113);
+            this.bill10000.Name = "bill10000";
+            this.bill10000.Size = new System.Drawing.Size(95, 52);
+            this.bill10000.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bill10000.TabIndex = 60;
+            this.bill10000.TabStop = false;
+            this.bill10000.Value = 10000;
+            this.bill10000.MouseDown += new System.Windows.Forms.MouseEventHandler(this.DropImage_MouseDown);
+            // 
+            // bill20000
+            // 
+            this.bill20000.Image = global::SnacksMachine.Properties.Resources.bill_0001_20000;
+            this.bill20000.Location = new System.Drawing.Point(436, 113);
+            this.bill20000.Name = "bill20000";
+            this.bill20000.Size = new System.Drawing.Size(95, 52);
+            this.bill20000.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bill20000.TabIndex = 60;
+            this.bill20000.TabStop = false;
+            this.bill20000.Value = 20000;
+            this.bill20000.MouseDown += new System.Windows.Forms.MouseEventHandler(this.DropImage_MouseDown);
+            // 
+            // bill50000
+            // 
+            this.bill50000.Image = global::SnacksMachine.Properties.Resources.bill_0000_50000;
+            this.bill50000.Location = new System.Drawing.Point(335, 187);
+            this.bill50000.Name = "bill50000";
+            this.bill50000.Size = new System.Drawing.Size(95, 52);
+            this.bill50000.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bill50000.TabIndex = 60;
+            this.bill50000.TabStop = false;
+            this.bill50000.Value = 50000;
+            this.bill50000.MouseDown += new System.Windows.Forms.MouseEventHandler(this.DropImage_MouseDown);
             // 
             // button1
             // 
@@ -366,25 +419,13 @@
             this.groupBox1.Controls.Add(this.button9);
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.button7);
-            this.groupBox1.Location = new System.Drawing.Point(261, 113);
+            this.groupBox1.Location = new System.Drawing.Point(264, 113);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(65, 136);
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
             this.groupBox1.Visible = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
-            // 
-            // PanelPrincipal
-            // 
-            this.PanelPrincipal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(200)))), ((int)(((byte)(150)))), ((int)(((byte)(80)))));
-            this.PanelPrincipal.InitialImage = null;
-            this.PanelPrincipal.Location = new System.Drawing.Point(262, 113);
-            this.PanelPrincipal.Name = "PanelPrincipal";
-            this.PanelPrincipal.Size = new System.Drawing.Size(62, 136);
-            this.PanelPrincipal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PanelPrincipal.TabIndex = 19;
-            this.PanelPrincipal.TabStop = false;
-            this.PanelPrincipal.Click += new System.EventHandler(this.PanelPrincipal_Click);
             // 
             // maskedTextBox1
             // 
@@ -398,6 +439,18 @@
             this.maskedTextBox1.TabIndex = 20;
             this.maskedTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
+            // 
+            // PanelPrincipal
+            // 
+            this.PanelPrincipal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(200)))), ((int)(((byte)(150)))), ((int)(((byte)(80)))));
+            this.PanelPrincipal.InitialImage = null;
+            this.PanelPrincipal.Location = new System.Drawing.Point(262, 113);
+            this.PanelPrincipal.Name = "PanelPrincipal";
+            this.PanelPrincipal.Size = new System.Drawing.Size(62, 136);
+            this.PanelPrincipal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PanelPrincipal.TabIndex = 19;
+            this.PanelPrincipal.TabStop = false;
+            this.PanelPrincipal.Click += new System.EventHandler(this.PanelPrincipal_Click);
             // 
             // label1
             // 
@@ -804,7 +857,12 @@
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(996, 655);
+            this.ClientSize = new System.Drawing.Size(539, 655);
+            this.Controls.Add(this.bill2000);
+            this.Controls.Add(this.bill5000);
+            this.Controls.Add(this.bill10000);
+            this.Controls.Add(this.bill20000);
+            this.Controls.Add(this.bill50000);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.PanelPrincipal);
             this.Controls.Add(this.moneyModule);
@@ -850,14 +908,17 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonDoor);
-            this.Controls.Add(this.bill1);
             this.Controls.Add(this.back);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.bill1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.back)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.moneyModule)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.front)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bill2000)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bill5000)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bill10000)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bill20000)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bill50000)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PanelPrincipal)).EndInit();
@@ -889,7 +950,11 @@
         #endregion
 
         private System.Windows.Forms.PictureBox back;
-        private System.Windows.Forms.PictureBox bill1;
+        private SnacksMachine.MoneyBill bill2000;
+        private SnacksMachine.MoneyBill bill5000;
+        private SnacksMachine.MoneyBill bill10000;
+        private SnacksMachine.MoneyBill bill20000;
+        private SnacksMachine.MoneyBill bill50000;
         private System.Windows.Forms.PictureBox moneyModule;
         private System.Windows.Forms.PictureBox front;
         private System.Windows.Forms.Button buttonDoor;
