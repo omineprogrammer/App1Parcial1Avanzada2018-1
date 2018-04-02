@@ -13,7 +13,6 @@ namespace SnacksMachine {
 
         //global vars
         static string logfile = ".\\" + System.Diagnostics.Process.GetCurrentProcess().ProcessName + ".log";
-        public static SnacksMachine.Machine machine = new Machine();
 
         //logger
         public static void Logger(string category, string msg) {
@@ -36,7 +35,6 @@ namespace SnacksMachine {
         public static void Transparent(PictureBox pictureBox) {
             int x;
             int y;
-            int alpha = 180;
             System.Drawing.Bitmap bmp = new System.Drawing.Bitmap(pictureBox.Image);
             System.Drawing.Drawing2D.GraphicsPath gp = new System.Drawing.Drawing2D.GraphicsPath();
             //System.Drawing.Color mask = bmp.GetPixel(0, 0);
@@ -45,14 +43,13 @@ namespace SnacksMachine {
             for (x = 0; x <= bmp.Width - 1; x++) {
                 for (y = 0; y <= bmp.Height - 1; y++) {
                     //if (!bmp.GetPixel(x, y).Equals(mask)) {
-                    if (bmp.GetPixel(x, y).A > alpha) {
+                    if (bmp.GetPixel(x, y).A > 180) {
                         gp.AddRectangle(new System.Drawing.Rectangle(x, y, 1, 1));
                     }
                 }
             }
-            //Program.Logger("DEBG", "alfa of color " + bmp.GetPixel(0,0).ToArgb() + " " + bmp.GetPixel(0, 0).A);
+            Program.Logger("DEBG", "alfa of color " + bmp.GetPixel(0,0).ToArgb() + " " + bmp.GetPixel(0, 0).A);
             pictureBox.Region = new System.Drawing.Region(gp);
-            //clear
             bmp.Dispose();
         }
 
@@ -66,7 +63,6 @@ namespace SnacksMachine {
             int i = 0;
             Timer timer = new Timer();
             timer.Interval = (1000 / FramexSecond);
-            Program.Logger("DEBG", timer.Interval + " animation FPS " + FramexSecond + ", delay fotogram " + timer.Interval);
             timer.Tick += new System.EventHandler(timer_tick);
             timer.Enabled = true;
             //handler timer
@@ -76,7 +72,6 @@ namespace SnacksMachine {
                 //handler
                 if (i == (BitmapArr.Count() - 1)) {
                     pictureBox.Image = BitmapArr[i];
-
                     Program.Transparent(pictureBox);
                     //Program.Logger("DEBG", pictureBox.Name + " image change to image number " + (i + 1));
                     //again
@@ -95,9 +90,6 @@ namespace SnacksMachine {
                 }
             }
         }
-
-        //create use cache for transparency function
-        //static private Dictionary<string, System.Drawing.Region> regionsCache = new Dictionary<string, Region>(); 
 
         [STAThread]
         static void Main() {
