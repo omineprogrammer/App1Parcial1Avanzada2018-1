@@ -1,15 +1,11 @@
-﻿using System;
-
-public class Machine {
-    public Machine() {
+﻿namespace SnacksMachine {
+    internal class Machine {
         //properties
-        public byte DoorOpened { get; set; }
-        public string DoorOpened { get; set; }
+        public bool DoorOpened { get; set; }
 
-        
-
-        public Machine () {
-
+        //constructor
+        public Machine() {
+            this.DoorOpened = false;
         }
     }
 }
