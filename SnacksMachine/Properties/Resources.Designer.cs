@@ -63,6 +63,16 @@ namespace SnacksMachine.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _7702189046734_1600x1600pxl {
+            get {
+                object obj = ResourceManager.GetObject("7702189046734-1600x1600pxl", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bill_0000_50000 {
             get {
                 object obj = ResourceManager.GetObject("bill_0000_50000", resourceCulture);
@@ -106,6 +116,16 @@ namespace SnacksMachine.Properties {
         internal static System.Drawing.Bitmap bill_0004_2000 {
             get {
                 object obj = ResourceManager.GetObject("bill_0004_2000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chocolatina {
+            get {
+                object obj = ResourceManager.GetObject("chocolatina", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -376,6 +396,26 @@ namespace SnacksMachine.Properties {
         internal static System.Drawing.Bitmap machine2_0001s_0011_Capa_2_copia_2 {
             get {
                 object obj = ResourceManager.GetObject("machine2_0001s_0011_Capa_2_copia_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap oreo {
+            get {
+                object obj = ResourceManager.GetObject("oreo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap salchichas {
+            get {
+                object obj = ResourceManager.GetObject("salchichas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -320,5 +320,17 @@
   <ItemGroup>
     <None Include="Resorces\Machine2\AnimationSprint\machine2_0001s_0011_Capa-2-copia-2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7702189046734-1600x1600pxl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chocolatina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oreo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salchichas.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

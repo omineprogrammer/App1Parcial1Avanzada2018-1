@@ -25,15 +25,29 @@ namespace SnacksMachine {
             //dragdrop
             bill1.AllowDrop = true;
             moneyModule.AllowDrop = true;
+            pictureBox17.AllowDrop = true;
+            pictureBox18.AllowDrop = true;
+            pictureBox23.AllowDrop = true;
+            pictureBox24.AllowDrop = true;
 
+            //drop items
             bill1.MouseDown += new MouseEventHandler(Event_MouseDown);
             bill1.DragDrop += new DragEventHandler(Event_DragDrop);
-            //bill1.DragEnter += new DragEventHandler(Event_DragEnter);
+            /*pictureBox24.MouseDown += new MouseEventHandler(Event_MouseDown);
+            pictureBox24.DragDrop += new DragEventHandler(Event_DragDrop);
+            pictureBox23.MouseDown += new MouseEventHandler(Event_MouseDown);
+            pictureBox23.DragDrop += new DragEventHandler(Event_DragDrop);
+            pictureBox22.MouseDown += new MouseEventHandler(Event_MouseDown);
+            pictureBox22.DragDrop += new DragEventHandler(Event_DragDrop);
+            pictureBox21.MouseDown += new MouseEventHandler(Event_MouseDown);
+            pictureBox21.DragDrop += new DragEventHandler(Event_DragDrop);*/
 
-            //moneyModule.MouseDown += new MouseEventHandler(Event_MouseDown);
-            //moneyModule.DragDrop += new DragEventHandler(Event_DragDrop);
+            //drag item
             moneyModule.DragEnter += new DragEventHandler(Event_DragEnter);
-
+            /*pictureBox17.DragEnter += new DragEventHandler(Event_DragEnter);
+            pictureBox18.DragEnter += new DragEventHandler(Event_DragEnter);
+            pictureBox19.DragEnter += new DragEventHandler(Event_DragEnter);
+            pictureBox20.DragEnter += new DragEventHandler(Event_DragEnter);*/
             Program.Logger("INFO", this.Name + " initialized");
         }
 
@@ -104,66 +118,43 @@ namespace SnacksMachine {
                 e.Effect = DragDropEffects.None;
             }
         }
+
+        //show controlpanel
         private void PanelPrincipal_Click(object sender, EventArgs e) {
-
             groupBox1.Visible = true;
-
         }
 
-        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e) {
+        //KB Events
+        private void button1_Click(object sender, EventArgs e) {maskedTextBox1.Text = maskedTextBox1.Text + "1";}
+        private void button2_Click(object sender, EventArgs e) {maskedTextBox1.Text = maskedTextBox1.Text + "2";}
+        private void button3_Click(object sender, EventArgs e) {maskedTextBox1.Text = maskedTextBox1.Text + "3";}
+        private void button4_Click(object sender, EventArgs e) {maskedTextBox1.Text = maskedTextBox1.Text + "4";}
+        private void button5_Click(object sender, EventArgs e) {maskedTextBox1.Text = maskedTextBox1.Text + "5";}
+        private void button6_Click(object sender, EventArgs e) {maskedTextBox1.Text = maskedTextBox1.Text + "6";}
+        private void button7_Click(object sender, EventArgs e) {maskedTextBox1.Text = maskedTextBox1.Text + "7";}
+        private void button8_Click(object sender, EventArgs e) {maskedTextBox1.Text = maskedTextBox1.Text + "8";}
+        private void button9_Click(object sender, EventArgs e) {maskedTextBox1.Text = maskedTextBox1.Text + "9";}
+        private void button10_Click(object sender, EventArgs e) {maskedTextBox1.Text = maskedTextBox1.Text + "0";}
+        private void button11_Click(object sender, EventArgs e) {maskedTextBox1.Clear();}
+        private void button12_Click(object sender, EventArgs e) {groupBox1.Visible = false;}
+        private void groupBox1_Enter(object sender, EventArgs e) { }
 
+
+        //MouseDown
+        private void Handler_MouseDown(object sender, MouseEventArgs e) {
+            PictureBox pictureBox = (PictureBox)sender;
+            pictureBox.DoDragDrop(pictureBox.Image, DragDropEffects.Copy);
         }
 
-        private void button1_Click(object sender, EventArgs e) {
-            maskedTextBox1.Text = maskedTextBox1.Text + "1";
+        //DragEnter
+        private void Handler_DragEnter(object sender, DragEventArgs e) {
+            e.Effect = DragDropEffects.Copy;
         }
-        private void button2_Click(object sender, EventArgs e) {
-            maskedTextBox1.Text = maskedTextBox1.Text + "2";
-        }
-
-        private void button3_Click(object sender, EventArgs e) {
-            maskedTextBox1.Text = maskedTextBox1.Text + "3";
-        }
-
-        private void button4_Click(object sender, EventArgs e) {
-            maskedTextBox1.Text = maskedTextBox1.Text + "4";
-        }
-
-        private void button5_Click(object sender, EventArgs e) {
-            maskedTextBox1.Text = maskedTextBox1.Text + "5";
-        }
-
-        private void button6_Click(object sender, EventArgs e) {
-            maskedTextBox1.Text = maskedTextBox1.Text + "6";
-        }
-
-        private void button7_Click(object sender, EventArgs e) {
-            maskedTextBox1.Text = maskedTextBox1.Text + "7";
-        }
-
-        private void button8_Click(object sender, EventArgs e) {
-            maskedTextBox1.Text = maskedTextBox1.Text + "8";
-        }
-
-        private void button9_Click(object sender, EventArgs e) {
-            maskedTextBox1.Text = maskedTextBox1.Text + "9";
-        }
-
-        private void button10_Click(object sender, EventArgs e) {
-            maskedTextBox1.Text = maskedTextBox1.Text + "0";
-        }
-
-        private void button11_Click(object sender, EventArgs e) {
-            maskedTextBox1.Clear();
-
-        }
-
-        private void button12_Click(object sender, EventArgs e) {
-            groupBox1.Visible = false;
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e) {
-
+        
+        //DragDrop
+        private void Handler_DragDrop(object sender, DragEventArgs e) {
+            PictureBox pictureBox = (PictureBox)sender;
+            pictureBox.Image = (Image)e.Data.GetData(DataFormats.Bitmap);
         }
     }
 }
