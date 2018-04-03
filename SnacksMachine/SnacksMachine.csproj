@@ -52,8 +52,26 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Machine.cs" />
+    <Compile Include="MoneyBill.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MoneyBill.Designer.cs">
+      <DependentUpon>MoneyBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoneyCoin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MoneyCoin.Designer.cs">
+      <DependentUpon>MoneyCoin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Snack.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Snack.Designer.cs">
+      <DependentUpon>Snack.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
